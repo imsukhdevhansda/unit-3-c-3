@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar{
+    /* border: 1px solid red; */
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    margin: auto;
+    height: 60px;
+    /* background-color: ; */
+    padding: 0px 10px;
+}
+#navbar a{
+    text-decoration: none;
+}
+
+
+#purchased_vouchers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto,250px);
+    gap: 30px;
+    margin: 20px;
+}
+.VImg{
+    width: 100%;
+}
